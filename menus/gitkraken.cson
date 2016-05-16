@@ -1,0 +1,13 @@
+menu: [
+	label: "Packages"
+	submenu: [
+		label: 'GitKraken'
+		submenu: [
+			label: 'Release'
+			command: 'gitkraken:release'
+]	]	]
+'context-menu':
+	'.platform-darwin .tree-view': [
+		label: 'Open project in GitKraken'
+		command: 'gitkraken:release'
+	]
