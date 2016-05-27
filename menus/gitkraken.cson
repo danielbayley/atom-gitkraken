@@ -1,17 +1,14 @@
 menu: [
 	label: "Packages"
 	submenu: [
-		label: 'Open Project in GitKraken' #GitKraken
+		label: "Open Project in GitKraken"
 		#submenu: [
 			#label: 'Open Project' #Release
 		command: 'gitkraken:release'
 ]	]	#]
 'context-menu':
-	'.platform-darwin .tree-view': [
-		label: 'Open Project in GitKraken'
-		command: 'gitkraken:release'
-	]
-	'[class^="status-bar"] .git-branch': [ #[class^="git-"]
-		label: 'Open Project in GitKraken'
+	'.tree-view .header[title],
+	 [class^="status-bar"] .git-branch': [ #.platform-darwin
+		label: "Open Project in GitKraken"
 		command: 'gitkraken:release'
 	]
