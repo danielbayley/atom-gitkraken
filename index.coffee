@@ -1,10 +1,7 @@
 {exec} = require 'child_process'
 
-app = '/Applications/GitKraken.app/Contents/MacOS/GitKraken'
-
 module.exports =
 	#os: process.platform
-	#app: '/Applications/GitKraken.app/Contents/MacOS/GitKraken'
 	#timeout:
 		#timeout: 10000
 		#killSignal: 'SIGKILL'
@@ -20,11 +17,11 @@ module.exports =
 			'gitkraken:release': => @open()
 
 		atom.packages.onDidActivateInitialPackages =>
-			@subs.add 'status-bar','click', @selector, @open #mousedown
+			@subs.add 'status-bar','click', @selector, @open
 
 	open: ->
 		{path} = atom.project.getDirectories()[0]
-		exec "#{app} -p '#{path}'" #, @timeout
+		exec "open -b com.axosoft.GitKraken --args -p '#{path}'" #, @timeout
 
 #-------------------------------------------------------------------------------
 	deactivate: -> @subs.dispose()
