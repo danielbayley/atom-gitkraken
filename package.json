@@ -24,10 +24,5 @@
   ],
   "engines": {
     "atom": "*"
-  },
-  "activationCommands": {
-    "atom-workspace": [
-      "gitkraken:release"
-    ]
   }
 }
