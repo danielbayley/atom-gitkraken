@@ -22,10 +22,17 @@
   "os": [
     "darwin"
   ],
+  "dependencies": {
+    "sub-atom": "^1.1.0"
+  },
   "engines": {
     "atom": "*"
   },
-  "dependencies": {
-    "sub-atom": "^1.1.0"
+  "configSchema": {
+    "singleInstance": {
+      "description": "Limit to a single instance of the application, else spawn one per project.",
+      "type": "boolean",
+      "default": false
+    }
   }
 }

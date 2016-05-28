@@ -1,10 +1,14 @@
 [Atom] + [GitKraken]
 ====================
-Open the current Atom project in [GitKraken](http://gitkraken.com). This can be activated from the Packages menu, command palette, tree view or the git branch indicator in the status bar.
+Open the current [Atom] project in _[GitKraken]_.
+
+This can be activated from the _Packages_ menu, _command palette_, from the context menu on the root project folder in _tree view_, or the git _branch_ indicator in the _status bar_.
+
+An instance of _GitKraken_ will be spawned for each project by default, but can be configured in the package settings to only ever run a single instance of the application.
 
 Install
 -------
-`apm install gitkraken` or search "gitkraken" under packages within Atom.
+`apm install gitkraken` or search "kraken" under packages within Atom.
 
 License
 -------
