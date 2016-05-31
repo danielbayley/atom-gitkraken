@@ -40,7 +40,11 @@ module.exports =
 				projects[path] = (parseInt pid) + 1
 				writeFile tmp, JSON.stringify projects
 
+			window.addEventListener 'beforeunload', ->
+				exec "kill #{projects[path]}"
+
 #-------------------------------------------------------------------------------
 	deactivate: ->
 		@subs.dispose()
+		window.removeEventListener 'beforeunload'
 		unlink tmp
