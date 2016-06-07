@@ -1,6 +1,6 @@
 {
   "name": "gitkraken",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Open current project in GitKraken.",
   "keywords": [
     "project",
