@@ -8,7 +8,7 @@ An instance of _GitKraken_ will be spawned for each project by default, but can 
 
 Install
 -------
-`apm install gitkraken` or search "kraken" under packages within Atom.
+`apm install gitkraken` or search “kraken” under packages within Atom.
 
 License
 -------
