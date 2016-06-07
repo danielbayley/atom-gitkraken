@@ -8,7 +8,7 @@
     "gitkraken",
     "workflow"
   ],
-  "homepage": "http://atom.io/packages/gitkraken",
+  "homepage": "https://atom.io/packages/gitkraken",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielbayley/atom-gitkraken.git"
