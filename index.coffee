@@ -21,8 +21,9 @@ module.exports =
 		@subs.add atom.commands.add 'atom-workspace',
 			'gitkraken:release': => @open @project
 
-		atom.packages.onDidActivateInitialPackages =>
-			@subs.add 'status-bar','click', selector, @open @project
+		@subs.add atom.packages.onDidActivateInitialPackages =>
+			@subs.add 'status-bar','click', @selector, ({altKey, shiftKey}) =>
+				@open @project if altKey or shiftKey
 
 #-------------------------------------------------------------------------------
 	open: ({path}) ->
