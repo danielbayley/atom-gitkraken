@@ -14,7 +14,7 @@ License
 -------
 [MIT] © [Daniel Bayley]
 
-[MIT]:						LICENSE.md
-[Daniel Bayley]:	https://github.com/danielbayley
-[atom]:						https://atom.io
-[gitkraken]:			http://gitkraken.com
+[MIT]:            LICENSE.md
+[Daniel Bayley]:  https://github.com/danielbayley
+[atom]:           https://atom.io
+[gitkraken]:      http://gitkraken.com
