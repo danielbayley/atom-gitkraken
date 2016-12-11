@@ -8,7 +8,7 @@ module.exports =
 		#timeout: 10000
 		#killSignal: 'SIGKILL'
 
-	project: atom.project.getDirectories()[0]
+	project: atom.project.getDirectories()[0] ? path: process.cwd()
 	tmp: '/tmp/GitKraken.json'
 
 	id: 'com.axosoft.GitKraken'
