@@ -1,3 +1,6 @@
+[![badge][apm]][package]
+[![badge][chat]][#slack]
+
 [Atom] + [GitKraken]
 ====================
 Open the current [Atom] project in _[GitKraken]_.
@@ -17,4 +20,9 @@ License
 [MIT]:            LICENSE.md
 [Daniel Bayley]:  https://github.com/danielbayley
 [atom]:           https://atom.io
+[apm]:            https://img.shields.io/apm/v/gitkraken.svg?style=flat-square
+[package]:        https://atom.io/packages/gitkraken
+[chat]:           https://img.shields.io/badge/chat-atom.io%20slack-ff69b4.svg?style=flat-square
+[#slack]:         https://atom-slack.herokuapp.com
+
 [gitkraken]:      http://gitkraken.com
