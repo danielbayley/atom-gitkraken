@@ -8,15 +8,14 @@
     "gitkraken",
     "workflow"
   ],
-  "homepage": "https://atom.io/packages/gitkraken",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielbayley/atom-gitkraken.git"
+  "homepage": "https://atom.io/packages/gitkraken#readme",
+  "repository": "danielbayley/atom-gitkraken",
+  "bugs": "https://github.com/danielbayley/atom-gitkraken/issues",
+  "author": {
+    "name": "Daniel Bayley",
+    "email": "daniel.bayley@me.com",
+    "url": "https://github.com/danielbayley"
   },
-  "bugs": {
-    "url": "https://github.com/danielbayley/atom-gitkraken/issues"
-  },
-  "author": "Daniel Bayley <daniel.bayley@me.com> (https://github.com/danielbayley)",
   "private": true,
   "license": "MIT",
   "os": [

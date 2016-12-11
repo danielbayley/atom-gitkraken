@@ -1,5 +1,6 @@
 [![badge][apm]][package]
 [![badge][chat]][#slack]
+[![badge][chat-gk]][#slack-gk]
 
 [Atom] + [GitKraken]
 ====================
@@ -22,7 +23,9 @@ License
 [atom]:           https://atom.io
 [apm]:            https://img.shields.io/apm/v/gitkraken.svg?style=flat-square
 [package]:        https://atom.io/packages/gitkraken
-[chat]:           https://img.shields.io/badge/chat-atom.io%20slack-ff69b4.svg?style=flat-square
+[chat]:           https://img.shields.io/badge/slack-atom.io-9FD4A9.svg?style=flat-square
 [#slack]:         https://atom-slack.herokuapp.com
 
+[chat-gk]:        https://img.shields.io/badge/slack-gitkraken-379388.svg?style=flat-square
+[#slack-gk]:      https://slack.gitkraken.com
 [gitkraken]:      http://gitkraken.com
