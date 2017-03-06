@@ -26,12 +26,5 @@
   },
   "engines": {
     "atom": "*"
-  },
-  "configSchema": {
-    "singleInstance": {
-      "description": "Limit to a single instance of the application, else spawn one per project.",
-      "type": "boolean",
-      "default": false
-    }
   }
 }
