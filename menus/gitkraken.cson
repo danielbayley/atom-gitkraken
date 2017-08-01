@@ -9,7 +9,7 @@ menu: [
 'context-menu':
   '.tree-view .header .icon-repo,
    .header .tree-view-git-status,
-   [class^="status-bar"] .git-branch': [ #.platform-darwin
+   [class^="status-bar"] [class^=git][class*=branch]': [
     label: "Open Project in GitKraken"
     command: 'gitkraken:release'
   ]
