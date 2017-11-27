@@ -19,7 +19,8 @@
   "private": true,
   "license": "MIT",
   "os": [
-    "darwin"
+    "darwin",
+    "linux"
   ],
   "dependencies": {
     "sub-atom": "^1.1.0"
